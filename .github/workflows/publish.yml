@@ -6,7 +6,7 @@ on:
           - main
 
 jobs:
-    release:
+    release-npm:
         name: 🚀 Publish NPM
         runs-on: macos-11
         steps:
@@ -22,7 +22,7 @@ jobs:
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
-      release:
+      release-yarn:
         name: 🚀 Publish YARN
         runs-on: macos-11
         steps:
