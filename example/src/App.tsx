@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Counter } from 'MJRNModule'
+import { Counter } from 'mjrnmodule'
 
 const App = () => {
   useEffect(() => {
