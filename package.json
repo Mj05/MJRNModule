@@ -1,6 +1,6 @@
 {
   "name": "mrmjrnmodule",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "homepage": "",
   "main": "lib/index.js",
@@ -10,6 +10,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "url": "https://github.com/Mj05/MJRNModule",
+    "type": "git"
+  },
   "scripts": {
     "compile": "rm -rf lib && tsc -p . && cp -R ./src/assets ./lib/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
