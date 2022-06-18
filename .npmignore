@@ -1,6 +1,10 @@
-# Node Modules
-node_modules/
+# Assets
+assets/
 # Example app
 example/
 # Github actions
 .github/
+.eslintignore
+.eslintrc.js
+.prettierrc.js
+babel.config.js
